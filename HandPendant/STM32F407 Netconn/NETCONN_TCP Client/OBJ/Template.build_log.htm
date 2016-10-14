@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: g h, Microsoft, LIC=Z3CX7-ETV5V-SE1H0-BEHXL-AKNDD-X4BK5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\STM32\software install\MDK5.14\install path\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\project\code\HandPendant\STM32F407 Netconn\NETCONN_TCP Client\USER\Template.uvprojx
+Project File Date:  10/11/2016
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling tcp_client_demo.c...
+..\LWIP\lwip_app\tcp_client_demo\tcp_client_demo.c(72): warning:  #177-D: variable "recvbuf" was declared but never referenced
+                        struct netbuf *recvbuf;
+..\LWIP\lwip_app\tcp_client_demo\tcp_client_demo.c(48): warning:  #177-D: variable "cpu_sr" was declared but never referenced
+        OS_CPU_SR cpu_sr;
+..\LWIP\lwip_app\tcp_client_demo\tcp_client_demo.c(49): warning:  #177-D: variable "data_len" was declared but never referenced
+        u32 data_len = 0;
+..\LWIP\lwip_app\tcp_client_demo\tcp_client_demo.c(50): warning:  #177-D: variable "q" was declared but never referenced
+        struct pbuf *q;
+..\LWIP\lwip_app\tcp_client_demo\tcp_client_demo.c(51): warning:  #177-D: variable "recv_err" was declared but never referenced
+        err_t err,recv_err;
+..\LWIP\lwip_app\tcp_client_demo\tcp_client_demo.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=93282 RO-data=8010 RW-data=756 ZI-data=404284  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\project\code\HandPendant\STM32F407 Netconn\NETCONN_TCP Client\USER\RTE
+  D:\STM32\software install\MDK5.14\install path\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
